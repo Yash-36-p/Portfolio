@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins&family=Questrial&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a> 
+        <a href="#portfolio">Project</a>
+        <a href="#certifications">Achievements</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Yash Pandey</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>
+          Welcome to my creative portfolio! Here you'll find a glimpse into
+          the diverse range of my skills and interests. I am a versatile and
+          creative individual who enjoys exploring various art forms. I am
+          always eager to collaborate with others and take on new challenges.
+          Thank you for visiting my portfolio, and I look forward to creating
+          something amazing together.
+        </p>
+        <div class="social-media">
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+          <a href="https://www.linkedin.com/feed/"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <a href="assets/cv.pdf" class="btn1">Download CV</a>
+      </div>
+
+      <div class="home-img">
+        <img src="Yashmain.png" alt="" />
+      </div>
+    </section>
+
+    <!-- about -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="yash2.jpeg" alt="" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3 class="heading">Full Stack Developer!</h3>
+        <p>
+          I am a versatile and creative designer with expertise in
+          app and website design. With a strong eye for aesthetics and a keen
+          understanding of user experience, I create visually stunning and
+          engaging designs that deliver results. I have experience working on
+          projects like user
+          interface design, and app interface.
+        </p>
+        
+        <h2 class="heading">Interests & <span>Expertise</span></h2>
+       
+        <h3 class="heading">Field of <span>Interest</span></h3>
+        <div class="interest">
+          <p>Computer Vision</p>
+          <p>Communication & Personal Development</p>
+          <p>Share Market Analyst</p>   
+        </div>
+
+          <h3 class="heading">Area of <span>Expertise</span></h3>
+        <div class="interest">
+          <p>Programming & Web Development</p>
+          <p>Problem Solving</p> 
+          <p>Image Editing & Visual Creativity</p>
+          </div>
+          <div class="btncontainer">
+        <a href="#" class="btn2">Read More</a>
+          </div>
+      </div>
+    </section>
+
+    
+    <!-- Education Details -->
+
+    <section class="timeline-section" id="education">
+      <h3 class="heading"><span>Education</span></h3>
+    
+      <div class="timeline">
+        
+        <!-- Item 1 - Left -->
+        <div class="timeline-item left">
+          <div class="content">
+            <div class="logo-title">
+              <img src="LPU.png" alt="LPU Logo" class="college-logo1" />
+            <h3>Lovely Professional University</h3>
+            <p>Bachelor of Technology<br>Computer Science & Engineering<br><em>Currently Pursuing</em></p>
+            <a href="#">View Certificate</a>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Center Circle -->
+        <div class="timeline-marker">Now</div>
+    
+        <!-- Item 2 - Right -->
+        <div class="timeline-item right">
+          <div class="content">
+            <div class="logo-title">
+              <img src="AIEM.png" alt="AIEM Logo" class="college-logo2  " />
+            <h3>Asansol Institute of Engineering</h3>
+            <h4>Diploma in Computer Science & Technology<br><br>CGPA: 8.2</h4>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Center Circle -->
+        <div class="timeline-marker">2024</div>
+    
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section" id="skills">
+      <h3 class="heading"><span>Skills</span></h3>
+      <div class="skills-container">
+        
+        <!-- Programming Languages -->
+        <div class="skill-card">
+          <img src="Laptop.png" alt="Laptop Icon" class="skill-icon" />
+          <h3 class="skill-title programming">Programming Languages</h3>
+          <ul>
+            <li>Java</li>
+            <li>C++</li>
+            <li>C</li>
+            <!-- <li>Python</li> -->
+          </ul>
+          <div class="certifications">
+            <strong>Certifications</strong>
+            <p>C++ (Object Oriented Programming)</p>
+            <p>Data Structures and Algorithms</p>
+            <p>Java</p>
+          </div>
+        </div>
+    
+        <!-- Front End Development -->
+        <div class="skill-card">
+          <img src="Frontend.png" alt="Computer Icon" class="skill-icon" />
+          <h3 class="skill-title ml">Front End Development</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Tailwind</li>
+          </ul>
+        </div>
+    
+        <!-- Deep Learning -->
+        <div class="skill-card">
+          <img src="Backend.png" alt="DL Icon" class="skill-icon" />
+          <h3 class="skill-title dl">Backend Development</h3>
+          <ul>
+            <li>PHP</li>
+            <li>MySql</li>
+          </ul>
+        </div>
+      </div>
+
+      <section class="skills-section">
+       <div class="skills-row center-row">
+          <div class="skill-card soft-skills">
+            <!-- Icon + Content -->
+            <img src="Softskill.png" alt="Laptop Icon" class="skill-icon" />
+            <h3 class="skill-title programming">Soft Skills</h3>
+            <ul>
+              <li>Proficient Speaker </li>
+              <li>Effective Communication</li>
+              <li>NLP</li>
+              <li>Critical Thinking</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+          
+    <!-- Portfolio Section -->
+<div>
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Project</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="JobTracker.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Job Tracker</h4>
+            <p>
+             A Job Tracking website.
+            </p>
+            <a href="https://github.com/Yash-36-p/Ca.git"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="Portfolio1.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Portfolio</h4>
+            <p>
+              A portfolio Website
+            </p>
+            <a href="https://mgvportfolio.netlify.app"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="HotelBot.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Hotel Booking Assistant</h4>
+            <p>
+              An AI Chatbot for Hotel Booking.
+            </p>
+            <a href="https://hotel-booking-chatbot-q591.onrender.com/"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+         </div>
+      </div>
+    </section>
+</div>
+
+<!-- <section class="certifications" id="certifications">
+  <h2 class="heading">Achievements & <span>Certifications</span></h2>
+  <div class="certification-container">
+
+    
+    <div class="cert-card">
+      <img src="images/certificate1.png" alt="Mentor for Skill Competition 2024">
+      <h3>Mentor for Skill Competition 2024</h3>
+      <p>Recognized for contribution and expertise as Mentor for the Skill Competition 2024 by Jharkhand Skill Development Mission Society.</p>
+    </div>
+
+    
+    <div class="cert-card">
+      <img src="images/certificate2.png" alt="NX Training Program">
+      <h3>NX Training Program</h3>
+      <p>Successfully completed a training program on NX in 2022 at Jharkhand Government Tool Room, Ranchi.</p>
+    </div>
+
+  
+    <div class="cert-card">
+      <img src="images/certificate3.png" alt="German Language Youth Camp">
+      <h3>German Language Youth Camp</h3>
+      <p>Participated in the German Language youth camp 'Hallo Deutsch' organized by German Language Centre, Patna under the aegis of Goethe-Institut/Max Mueller Bhavan Kolkata in 2016.</p>
+    </div>
+
+  </div>
+</section> -->
+
+
+<section class="carousel-section">
+  <h2 class="heading">Academic <span>Certifications</span></h2>
+  
+  <div class="carousel">
+    <button class="nav left" onclick="moveSlide(-1)">&#10094;</button>
+
+    <div class="carousel-track" id="carousel-track">
+      <div class="card">
+        <img src="BitsBytes.png" alt="Certificate 1">
+        <p>Bits and Bytes</p>
+      </div>
+      <div class="card">
+        <img src="HardwareOS.png" alt="Certificate 2">
+        <p>Introduction to Hardware and Operating Systems</p>
+      </div>
+      <div class="card">
+        <img src="NetworkComm.png" alt="Certificate 3">
+        <p>Fundamentals of Network Communication</p>
+      </div>
+      <div class="card">
+        <img src="DigitalSys.png" alt="Certificate 4">
+        <p>Digital Systems: From Logic Gates to Processors</p>
+      </div>
+      <div class="card">
+        <img src="ComputerComm.png" alt="Certificate 5">
+        <p>Computer Communications</p>
+      </div>
+      
+      <div class="card">
+        <img src="C++.png" alt="Certificate 6">
+        <p>Object Oriented Programming in C++</p>
+      </div>
+
+      <div class="card">
+        <img src="DSA.png" alt="Certificate 7">
+        <p>Data Structures and Algorithms</p>
+      </div>
+      <div class="card">
+        <img src="Java.png" alt="Certificate 8">
+        <p>Java Programming </p>
+      </div>
+    </div>
+
+    <button class="nav right" onclick="moveSlide(1)">&#10095;</button>
+  </div>
+</section>
+
+<script src="script.js"></script>
+
+
+    <!-- contact -->
+
+    <section class="contact" id="contact">
+      <h2 class="heading2">Contact <span>Me!</span></h2>
+
+      <form action="mailto:yash.pandey5623@gmail.com" method="post" enctype="text/plain">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2025 by Yash Pandey| All Rights Reserved|</p>
+      </div>
+
+      <div class="footer-iconTap">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <!-- Scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
