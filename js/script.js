@@ -63,6 +63,14 @@ const typed = new Typed('.multiple-text', {
     loop: true
     });
 
+    const typed1 = new Typed('.multiple-text1', {
+    strings: ['Contact', 'Me'],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop: true
+    });
+
     let currentIndex = 0;
 
 function moveSlide(direction) {

@@ -156,18 +156,6 @@ span {
     color: var(--second-bg-color);
     box-shadow: 0 0 1rem var(--main-color);
 }
-.btn {
-    display: inline-block;
-    padding: 1rem 2.8rem;
-    /* background: var(--main-color); */
-    border-radius: 4rem;
-    box-shadow: 0 0 1rem var(--main-color);
-    font-size: 1.6rem;
-    /* color: var(--second-bg-color); */
-    letter-spacing: .1rem;
-    font-weight: 600;
-    transition: .5s ease;
-}
 
 
 .btn1 {
@@ -240,7 +228,7 @@ span {
     align-items: center;
     gap: 3.0rem;
     padding-bottom: 2%;
-    animation: floatImage 5s ease-in-out infinite;
+    
 
 }
 
@@ -272,6 +260,7 @@ span {
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     gap: 2.5rem;
+    animation: floatImage 5s ease-in-out infinite;
 }
 
 .portfolio-container .portfolio-box {
@@ -429,7 +418,7 @@ certifications {
     min-width: 40%;
     box-sizing: border-box;
     padding: 5px;
-    hover: transform 0.3s ease;
+    color: transform 0.3s ease;
     background: var(--second-bg-color);
     border-radius: 10px;
     margin: 0 5px;
@@ -480,6 +469,14 @@ certifications {
 
 /* ----------------------------------------------------------------------------------------------Contact Section  */
 .contact h2 {
+    margin-bottom: 3rem;
+}
+
+.contactspam {
+  font-size: xx-large;
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
     margin-bottom: 3rem;
 }
 
@@ -645,6 +642,25 @@ certifications {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -2rem;
+    z-index: 2;
+    
+  }
+   .timeline-marker1{
+    position: absolute;
+    top: 0;
+    margin-top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(to right, #7f5cf1, #e055de);
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 1rem;
     z-index: 1;
   }
@@ -677,7 +693,7 @@ certifications {
     background: var(--second-bg-color);
      /* var(--second-bg-color); */
     text-align: center;
-    animation: floatImage 5s ease-in-out infinite;
+    /* animation: floatImage 5s ease-in-out infinite; */
   }
   
   .section-title {
@@ -685,6 +701,7 @@ certifications {
     font-weight: bold;
     background: linear-gradient(to right, #4facfe, #8f5cff);
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
     margin-bottom: 40px;
   }
@@ -706,6 +723,7 @@ certifications {
     text-align: left;
     position: relative;
     border-top: 4px solid transparent;
+    animation: floatImage 5s ease-in-out infinite;
   }
 
   .skill-card {
